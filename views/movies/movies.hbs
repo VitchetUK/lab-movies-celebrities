@@ -1,0 +1,11 @@
+<h2></h2>
+<div>
+  <p>
+    to see more, click on the title
+  </p>
+  {{#each allMovies}}
+    <p>
+      <a href="/movies/movie-details"> {{this.title}}</a>
+    </p>
+  {{/each}}
+</div>
